@@ -32,7 +32,7 @@ nvim /etc/modprobe.d/nvidia.conf
 sudo mkinitcpio -P
 
 #PACKAGES
-yay -S hyprland xdg-desktop-portal-hyprland polkit-kde-agent bottles wine gamemode lib32-vulkan-intel google-chrome firefox python-pywalfox spotify spicetify-cli kitty fastfetch fish starship btop nsxiv udiskie mpv ani-cli wofi cliphist wl-clip-persist swaylock-effects swww python-pywal themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme pulseaudio-nextsink playerctl grimblast-git wf-recorder
+yay -S hyprland xdg-desktop-portal-hyprland polkit-kde-agent bottles wine gamemode lib32-vulkan-intel google-chrome firefox python-pywalfox spotify spicetify-cli kitty fastfetch fish starship btop nsxiv udiskie mpv ani-cli wofi cliphist wl-clip-persist swaylock-effects swww python-pywal themix-theme-oomox-git ttf-iosevka-nerd bibata-cursor-theme pulseaudio-nextsink playerctl grimblast-git wf-recorder pavucontrol
 
 #DIRECTORIES
 #mkdir ~/recordings
@@ -68,9 +68,6 @@ yay -S hyprland xdg-desktop-portal-hyprland polkit-kde-agent bottles wine gamemo
 #sudo chmod a+wr /opt/spotify/Apps -R
 #spicetify backup apply
 #spicetify apply
-
-# VOLUME
-#pactl set-sink-volume @DEFAULT_SINK@ 100%
 
 # GTK
 #gsettings set org.gnome.desktop.interface gtk-theme "oomox"
